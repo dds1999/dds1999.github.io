@@ -1,0 +1,31 @@
+body {
+  color : white;
+  background-color: rgb(47, 158, 206);
+  font-family: "Raleway", sans-serif;
+  margin : auto;
+  width: 80%;
+}
+h1 {
+  font-family: "Cinzel" , serif;
+}
+h1:hover {
+  text-decoration: underline;
+}
+a {
+  color : black;
+}
+a:hover {
+  color: pink;
+}
+.photo {
+  width : 45%;
+  float : right;
+}
+#container {
+  background-color: rgb(17, 99, 135);
+  padding: 30px;
+  border: 20px solid rgb(22, 116, 158);
+}
+p{
+  text-indent: 5px;
+}
