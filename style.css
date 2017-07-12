@@ -25,7 +25,17 @@ a:hover {
   background-color: rgb(17, 99, 135);
   padding: 30px;
   border: 20px solid rgb(22, 116, 158);
+  margin-bottom: 20px;
 }
 p{
   text-indent: 5px;
+}
+#commentSection {
+  margin : auto;
+  width: 60%;
+  text-align: center;
+  /*background: -webkit-radial-gradient(ellipse, rgba(17, 99, 135, 1), rgba(252, 255, 255, 0));
+  background-color: rgb(17, 99, 135);*/
+  color: black;
+  padding: 20px;
 }
