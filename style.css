@@ -45,9 +45,9 @@ p {
   text-align: center;
   /*background: -radial-gradient(ellipse, rgba(17, 99, 135, 1), rgba(252, 255, 255, 0));
   background-color: rgb(17, 99, 135);*/
-  background-color: white;
+  background-color: grey;
   color: black;
-  border: 20px solid dimgrey;
+  border: 20px solid rgb(45, 45, 45);
   padding: 20px;
 }
 #banner {
