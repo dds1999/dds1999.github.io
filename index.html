@@ -3,37 +3,52 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway" rel="stylesheet">
-    <title>Destini's Page</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"> </script>
+
   </head>
   <body>
-    <h1 align="center"><em> Destini's Page!! </em></h1>
-    <div id="container">
-    <img class="photo" align="right" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Autumn_Sunflower_Helianthus_annuus_3264px.jpg" alt="I don't have a picture of me so...">
-    <h3 id="summary"> Summary </h3>
-      <p> I live in Marietta, GA. I like reading, writing, and sometimes math.</p>
-    <h3 id="tldr"> Quick Facts </h3>
-      <ul>
-        <li> Date of Birth : 25 March 1999 </li>
-        <li> Place of Birth : Queens , NYC </li>
-        <li> University : Georgia Tech </li>
-      </ul>
-    <h3>Other Profiles</h3>
-      <ul>
-        <li><a href="">Google+</a></li>
-      </ul>
-    <h3>My Favorite Movies </h3>
-      <ol>
-        <li>Honestly I prefer TV shows</li>
-      </ol>
-    </div>
-    <div id="commentSection">
-      <h3>Comments</h3>
-      <ul id="previosComments">
+    <div id="all">
+      <div id="banner">
+        <ul id="banner_items">
+            <li> <a href="index.html">Home </a></li>
+            <li> <a href="index.html">About Me </a></li>
+            <li> <a href="index.html">Favorites </a> </li>
+        </ul>
+      </div>
+      <h1 align="center"><em> Destini's Page!! </em></h1>
+      <div id="container">
+      <img class="photo" align="right" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Autumn_Sunflower_Helianthus_annuus_3264px.jpg" alt="I don't have a picture of me so...">
+      <h3 id="summary"> Summary </h3>
+        <p> I live in Marietta, GA. I like reading, writing, and sometimes math.</p>
+      <h3 id="tldr"> Quick Facts </h3>
+        <ul>
+          <li> Date of Birth : 25 March 1999 </li>
+          <li> Place of Birth : Queens , NYC </li>
+          <li> University : Georgia Tech </li>
+        </ul>
+      <h3>Other Profiles</h3>
+        <ul>
+          <li><a href="">Google+</a></li>
+        </ul>
+      <h3>My Favorite Movies </h3>
+        <ol>
+          <li>Honestly I prefer TV shows</li>
+        </ol>
+      </div>
+      <div id="commentSection">
+        <form name="comments">
+          <label>Enter Comments Here</label>
+          <input type="text" id="commentBox"/>
+          <input type="button" id="ok_button" value="OK"/>
+        </form>
 
-      </ul>
-      <input type="text" id="commentBox" value="Enter text here">
-    </div>
+          <ul id="previousComments"> Previous Comments
+      
+          </ul>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="indexjs.js"> </script>
+  </div>
   </body>
 </html>
