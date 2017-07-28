@@ -1,40 +1,47 @@
 body {
   color : white;
-  //background-color: rgb(182, 189, 198);
-  background-image: url("Vermont_night_sky_stargazing.JPG");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2d/%D0%9D%D1%96%D0%B6%D0%BD%D0%B8%D0%B9_%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%BE.jpg");
   background-size: cover;
   font-family: "Raleway", sans-serif;
   margin : auto;
   width: 100%;
   padding: 0;
 }
-#all{
+#banner{
   background: linear-gradient( to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
   height: 75%;
 }
 h1 {
-  font-family: "Cinzel" , serif;
+  font-family: "Monoton" , cursive;
+  font-weight: normal;
+  /*transition: opacity 5s;*/
 }
-h1:hover {
-
+#maintitle {
+    font-size: 3.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
-a {
-  /*color : black;*/
-}
+/*
+#maintitle .visible {
+  opacity: 1;
+  transition: opacity, 2s, ease-in-out;
+}*/
 a:hover {
-  color: pink;
+  color: black;
 }
 .photo {
   width : 45%;
   float : right;
 }
 #container {
-  /*background-color: rgb(17, 99, 135);
-  border: 20px solid rgb(22, 116, 158);*/
+  background-color: rgba(0, 0, 0, .5);
   padding: 30px;
   margin: auto;
   margin-bottom: 20px;
   width: 70%;
+
 }
 p {
   text-indent: 5px;
@@ -45,15 +52,12 @@ p {
   text-align: center;
   /*background: -radial-gradient(ellipse, rgba(17, 99, 135, 1), rgba(252, 255, 255, 0));
   background-color: rgb(17, 99, 135);*/
-  background-color: grey;
-  color: black;
-  border: 20px solid rgb(45, 45, 45);
+  color: white;
   padding: 20px;
 }
 #banner {
   height: 100px;
   width: 100%;
-  //background-color: rgb(87, 92, 99);
   background: linear-gradient( to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 ul#banner_items {
@@ -73,11 +77,19 @@ ul#banner_items {
   display: block;
   padding: 20px;
 }
-#banner_items li:hover {
-  background-color: rgb(182, 189, 198);
+a {
+  color: white;
 }
+a:hover {
+  text-decoration: underline;
+}
+a:visited{
+  color: pink;
+}
+
 #banner_items li a:hover {
-  color : pink;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 #previousComments {
   text-align: left;

@@ -19,7 +19,11 @@ function addComment(){
 }
 function setup() {
   $("#ok_button").click(addComment);
+  $("#maintitle").hide(0).fadeIn(7000)
 }
 
+function fadeTitle() {
+  $("#maintitle").fadeTo(3000, .3);
+}
 $(document).ready(setup);
 addComment("from JS file");
